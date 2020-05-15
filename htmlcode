@@ -1,0 +1,37 @@
+HTML code while practicing on Freecodecamp.org
+##################################################
+
+Usage of p tags and main :
+
+<h2>CatPhotoApp</h2>
+<main>
+
+
+  <p>Kitty ipsum dolor sit amet, shed everywhere shed everywhere stretching attack your ankles chase the red dot,
+  hairball run catnip eat the grass sniff.</p>
+  <p>Purr jump eat the grass rip the couch scratched sunbathe, shed everywhere rip the couch sleep in the sink 
+  fluffy fur catnip scratched.</p>
+</main> 
+###################################################
+
+Usage of a elements: You can use a (anchor) elements to link to content outside of your web page.
+a elements need a destination web address called an href attribute.
+
+<p>Kitty ipsum dolor sit amet, shed everywhere shed everywhere stretching attack your ankles chase the red dot, hairball run catnip eat the grass sniff.</p>
+  <p>Purr jump eat the grass rip the couch scratched sunbathe, shed everywhere rip the couch sleep in the sink fluffy fur catnip scratched.</p>
+</main>
+<a href="http://freecatphotoapp.com">cat photos</a>
+####################################################
+
+a (anchor) elements can also be used to create internal links to jump to different sections within a webpage.
+
+To create an internal link, you assign a link's href attribute to a hash symbol #
+ plus the value of the id attribute for the element that you want to internally link to, 
+ usually further down the page. You then need to add the same id 
+attribute to the element you are linking to. An id is an attribute that uniquely describes an element.
+
+ <a href="#footer">Jump to Bottom</a>   ###at the top part of page 
+ 
+ <footer
+  id="footer">footer
+</footer>                       #### at the bottom of page 
